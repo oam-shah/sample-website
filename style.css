@@ -1,0 +1,107 @@
+/* Style for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the header tag */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style for the h1 tag */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Style for the main tag */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Style for the section tag */
+  section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Style for the h2 tag */
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* Style for the img tag */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  /* Style for the p tag */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  nav {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdown:hover ul {
+    display: block;
+  }
+  
+  .dropdown ul li:first-child a {
+    background-color: black;
+  }
+  

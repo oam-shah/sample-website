@@ -104,4 +104,13 @@ body {
   .dropdown ul li:first-child a {
     background-color: black;
   }
+
+ @media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+  
   
